@@ -35,16 +35,6 @@
 			path = "阅读记录";
 			sourceTree = "<group>";
 		};
-		061E5A3A2F93DECA006EF280 /* 阅读记录Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "阅读记录Tests";
-			sourceTree = "<group>";
-		};
-		061E5A442F93DECA006EF280 /* 阅读记录UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "阅读记录UITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				061E5A2C2F93DEC8006EF280 /* 阅读记录 */,
-				061E5A3A2F93DECA006EF280 /* 阅读记录Tests */,
-				061E5A442F93DECA006EF280 /* 阅读记录UITests */,
 				061E5A2B2F93DEC8006EF280 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				061E5A392F93DECA006EF280 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				061E5A3A2F93DECA006EF280 /* 阅读记录Tests */,
-			);
 			name = "阅读记录Tests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				061E5A432F93DECA006EF280 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				061E5A442F93DECA006EF280 /* 阅读记录UITests */,
 			);
 			name = "阅读记录UITests";
 			packageProductDependencies = (
@@ -192,6 +174,10 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
+				ja,
+				ko,
+				"zh-Hans",
 			);
 			mainGroup = 061E5A212F93DEC8006EF280;
 			minimizedProjectReferenceProxies = 1;
@@ -328,6 +314,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +371,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -395,8 +383,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3VWHWGY63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您的同意才能将阅读报告保存至相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,8 +417,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3VWHWGY63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您的同意才能将阅读报告保存至相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
